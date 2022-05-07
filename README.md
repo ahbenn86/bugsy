@@ -2,7 +2,7 @@
 ### Your bug tracker 
 <br/>
 
-<!-- ![Insert Image Link Here]() -->
+![App Logo](https://github.com/ahbenn86/bugsy/blob/master/public/bugsy-logo.png?raw=true) 
 
 > Currently under development 
 
