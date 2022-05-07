@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {retrieveBugs} from '../bugController'
+import {retrieveBugs} from '../Redux/bugController'
 
 const slice = createSlice({
 
@@ -20,4 +20,8 @@ const slice = createSlice({
         }
     }
 })
+
+export default slice.reducer;
+
+export const {getBugs,createBugs,updateBug,markComplete} = slice.actions
 
