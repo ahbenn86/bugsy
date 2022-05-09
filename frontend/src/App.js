@@ -1,11 +1,11 @@
+import Login from './Views/Login/login'
 
-import './App.css';
 
 function App() {
   return (
-   <div>
-     <h1>Bugsy</h1>
-   </div>
+   <>
+   <Login/>
+   </>
   );
 }
 
