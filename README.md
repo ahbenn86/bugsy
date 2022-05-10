@@ -12,9 +12,8 @@
 ---
 
 
-* Full stack
+* Full Mern Stack
 * React (JSX)
 * Redux
 * Node
-
-
+* MongoDB
