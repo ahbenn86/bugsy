@@ -1,4 +1,4 @@
-/* This is GLOBAL css. Styling that will be applied across the entire application */
+
 
 * {
   margin: 0;
@@ -12,4 +12,8 @@
 button:hover {
   transition: all 0.3s;
   background: #ae0000;
+}
+
+button:focus {
+  outline: 2px solid rgba(64, 112, 255, 0.601);
 }
