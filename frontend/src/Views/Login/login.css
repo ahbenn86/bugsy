@@ -39,7 +39,9 @@ body {
 
 .login-panel h1 {
   font-size: x-large;
+  letter-spacing: 3px;
   margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.549);
 }
 
 .login-panel input {
