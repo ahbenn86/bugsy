@@ -1,0 +1,15 @@
+/* This is GLOBAL css. Styling that will be applied across the entire application */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* button {
+} */
+
+button:hover {
+  transition: all 0.3s;
+  background: #ae0000;
+}

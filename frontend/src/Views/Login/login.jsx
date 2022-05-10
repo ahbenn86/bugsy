@@ -26,9 +26,13 @@ export default () => {
   }
 
   return (
-    <div className="loginBG">
+    <div className="login-container">
+      <div className="form">
       <form action="#" className="login-panel">
-        <h1>Login:</h1>
+      <img className="login__logo" src='https://i.ibb.co/TL23pTK/bugsy-logo.png' alt=''/>
+        <h1><strong>
+        LOGIN
+          </strong></h1>
         <input
           name="name"
           placeholder="Name"
@@ -38,14 +42,15 @@ export default () => {
         <input
           name="password"
           type="password"
-          placeholder="password"
+          placeholder="Password"
           onChange={inputChanged}
           value={formInput.password}
         ></input>
-        <button type="submit" onClick={submit}>
+        <button className="login_button" type="submit" onClick={submit}>
           Login
         </button>
       </form>
+      </div>
     </div>
   );
 };
