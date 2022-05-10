@@ -1,0 +1,19 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* button {
+} */
+
+button:hover {
+  transition: all 0.3s;
+  background: #ae0000;
+}
+
+button:focus {
+  outline: 2px solid rgba(64, 112, 255, 0.601);
+}
