@@ -2,7 +2,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background: url("../../../public/images/bugsy-bg.png");
+  background: url("https://i.ibb.co/m8J6GDP/bugsy-bg.png");
   background-repeat: no-repeat;
   background-color: rgba(158, 157, 157, 0.495);
   background-blend-mode: multiply;
@@ -60,7 +60,7 @@ input:focus {
   box-shadow: 3px 3px #3c3b3b5a;
 }
 
-.login_button {
+/* .login_button {
   background-color: rgb(246, 61, 61);
   border-radius: 10px;
   width: 60%;
@@ -70,4 +70,4 @@ input:focus {
   margin-bottom: 10px;
   border-color: #bb0000 #b80a0a #7a0303;
   color: white;
-}
+} */
