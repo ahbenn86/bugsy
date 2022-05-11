@@ -11,7 +11,7 @@ export default () => {
   const { auth } = useSelector((state) => state);
 
   function SignOut() {
-    dispatch(SignOut());
+    dispatch(signOut());
   }
 
   return (
