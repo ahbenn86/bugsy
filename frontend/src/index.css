@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+#root{
+  --card-color: rgb(215, 215, 215);
+}
+
 button {
   background-color: rgb(246, 61, 61);
   border-radius: 10px;
@@ -25,4 +29,12 @@ button:hover {
 
 button:focus {
   outline: 2px solid rgba(64, 112, 255, 0.601);
+}
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  grid-column: 2;
 }
