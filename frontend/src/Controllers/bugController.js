@@ -20,7 +20,7 @@ export function retrieveBugs() {
   data.push(
     new bugModel({
       _id: 23456789,
-      name: "Wont Load",
+      name: "Won't Load",
       details: "Screen goes black",
       steps: "Open application and it will crash",
       version: "V2.0",

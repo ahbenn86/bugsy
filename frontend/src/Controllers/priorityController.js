@@ -3,7 +3,7 @@
 const colors = ["#b33a3a","#541690","#4E944F"]
 
 export default (priority) => {
-    const level = ["High", "Medium", "Low"]
+    const level = ["Priority: High", "Priority: Medium", "Priority: Low"]
 
     return {
         level:(level[priority-1]),

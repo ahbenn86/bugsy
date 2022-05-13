@@ -13,9 +13,9 @@ export default (props) => {
 
     return(
         <div className='bug-card' onClick={Clicked} style={{color:color}}>
-            <h2 className='name'>{name}</h2>
-            <h4 className='priority'>{level}</h4>
-            <h5 className='version'>{version}</h5>
+            <h2 className='name' id="ticket_details">{name}</h2>
+            <h3 className='priority' id="ticket_details">{level}</h3>
+            <h4 className='version' id="ticket_details">{version}</h4>
         </div>
     )
 }
