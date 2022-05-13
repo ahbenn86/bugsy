@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {retrieveBugs} from '../Redux/bugController'
+import {retrieveBugs} from '../../Controllers/bugController'
 
 const slice = createSlice({
 

@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-#root{
+/* #root{
   --card-color: rgb(215, 215, 215);
-}
+} */
 
 button {
   background-color: rgb(246, 61, 61);
