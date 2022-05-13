@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=M+PLUS+Code+Latin&display=swap");
+
+.sidebar {
+  position: fixed;
+  grid-column: 1;
+  width: 15%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.902);
+  text-align: center;
+}
+
+.sidebar li {
+  padding: 7px;
+  font-size: 1.3rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #B33030;
+  margin-bottom: 15px;
+  width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0.294);
+  letter-spacing: 4px;
+}
+
+.sidebar li:hover {
+  transition: all 0.3s;
+  background-color: #ae0000;
+  
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar .nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar .nav-link:hover {
+  text-decoration: none;
+  color: rgb(255, 204, 0);
+}
+
+.sidebar .logout {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 60%;
+}
+
+.brand {
+  border: 2px solid rgba(255, 255, 255, 0.795);
+  border-radius: 5px;
+  background: url("https://i.ibb.co/27sDDpc/bugsy-font.png");
+  background-color: rgb(38, 38, 38);
+  box-shadow: 6px 6px 6px #00000075;
+  width: 346px;
+  height: 100px;
+  margin-bottom: 15px;
+}

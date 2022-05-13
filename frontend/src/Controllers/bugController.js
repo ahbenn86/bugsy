@@ -1,4 +1,4 @@
-import bugModel from '../../Models/bugModel'
+import bugModel from '../Models/bugModel'
 
 export function retrieveBugs() {
   let data = [];
@@ -12,7 +12,7 @@ export function retrieveBugs() {
       version: "V2.0",
       assigned: "Angelo Bennett",
       creator: "John Doe",
-      priorty: "1",
+      priority: "1",
       time: "11:50",
     })
   );
@@ -20,13 +20,13 @@ export function retrieveBugs() {
   data.push(
     new bugModel({
       _id: 23456789,
-      name: "Wont Load",
+      name: "Won't Load",
       details: "Screen goes black",
       steps: "Open application and it will crash",
       version: "V2.0",
       assigned: "Angelo Bennett",
       creator: "John Doe",
-      priorty: "3",
+      priority: "3",
       time: "11:50",
     })
   );
