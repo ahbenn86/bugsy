@@ -1,0 +1,16 @@
+.edit-panel {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.edit-panel button {
+  width: 80px;
+  background-color: rgb(0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.476);
+  margin: auto;
+
+}

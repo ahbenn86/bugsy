@@ -8,6 +8,7 @@
     position: absolute;
     z-index: 10;
     color: white;
+    padding: 1% 5%;
 
 }
 
@@ -40,6 +41,6 @@
 .bug-create button {
     grid-column: 2;
     width: 200px;
-    margin-left: 175px;
+    margin-left: 180px;
     
 }
