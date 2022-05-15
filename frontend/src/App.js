@@ -17,7 +17,7 @@ function App() {
           <Sidebar />
           <Routes>
            <Route path="/viewbugs" element={<ViewBugPage/>}/>
-           <Route path="/create" element={<CreateBug/>}>
+           <Route path="/create" title="Create Bug" element={<div className="page-container"><CreateBug/></div>}>
           </Route> 
           </Routes>
           

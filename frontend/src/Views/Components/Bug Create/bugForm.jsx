@@ -5,13 +5,13 @@ import './bugForm.css'
 export default (props) => {
     return (
         <div className="bug-create">
-            <h1>{props.title}</h1>
+            <h1>Create Bug</h1>
             <form>
-            <lalbel>Name</lalbel>
+            <label>Name</label>
             <input name="name" placeholder='Bug Name' required></input>
             <label>Details:</label>
             <textarea name="details" placeholder='Detailed description on the bug' required></textarea>
-            <label>Priority:</label>
+            <label>Priority</label>
             <select name="priority" required>
                 <option value='1'>High</option>
                 <option value='2'>Mid</option>
@@ -23,9 +23,9 @@ export default (props) => {
                 <option>Jane Doe</option>
                 <option>John Doe</option>
             </select>
-            <label>Application Version:</label>
+            <label>Application Version</label>
             <input name='version' placeholder='Application Version'></input>
-            <button type='submit'>{props.title}</button>
+            <button type='submit'>Create Bug</button>
             </form>
         </div>
     )
