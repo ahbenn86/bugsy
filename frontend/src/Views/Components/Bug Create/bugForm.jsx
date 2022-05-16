@@ -15,7 +15,11 @@ export default (props) => {
 
   return (
     <div className="bug-create">
-        {props.title === "Edit Bug" && <button className="close-btn" onClick={props.close}>Close</button>}
+      {props.title === "Edit Bug" && (
+        <button className="close-btn" onClick={props.close}>
+          Close
+        </button>
+      )}
       <h1>{props.title}</h1>
       <form>
         <label>Name</label>
@@ -50,7 +54,7 @@ export default (props) => {
           value={bugObject.priority}
         >
           <option value="1">High</option>
-          <option value="2">Mid</option>
+          <option value="2">Medium</option>
           <option value="3">Low</option>
         </select>
         <label>Assigned</label>
