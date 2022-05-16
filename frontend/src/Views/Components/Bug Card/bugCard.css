@@ -10,12 +10,13 @@
     border-radius: 5%;
     border: 3px solid #890f0dc4;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: 5%;
 
 }
 
-.bug-card :hover {
+.bug-card:hover {
     transition: all 0.3s;
-    transform: scale(2.0);
+    transform: scale(1.3);
 }
 
 #ticket_details {
