@@ -14,7 +14,7 @@ route
   .put("/user", (req, res) => {
     const { _id, name, password, role } = req.body;
     userModel
-      .findByIdAndUpdate(_id)
+      .findByIdAndUpdate(_id,{name,password,role})
       .then((user) => {
         if (!user) return res.status(400).send("no user");
         res.send("updated");
