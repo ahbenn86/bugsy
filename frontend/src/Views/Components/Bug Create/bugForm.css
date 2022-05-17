@@ -41,6 +41,5 @@
 .bug-create button {
     grid-column: 2;
     width: 200px;
-    margin-left: 180px;
-    
+    margin-left: 25%;
 }
