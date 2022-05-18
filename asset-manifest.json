@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bugsy/static/css/main.57fb19f0.css",
+    "main.js": "/bugsy/static/js/main.72592894.js",
+    "index.html": "/bugsy/index.html",
+    "main.57fb19f0.css.map": "/bugsy/static/css/main.57fb19f0.css.map",
+    "main.72592894.js.map": "/bugsy/static/js/main.72592894.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57fb19f0.css",
+    "static/js/main.72592894.js"
+  ]
+}
