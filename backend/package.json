@@ -4,10 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1",
-=======
->>>>>>> backend
     "start": "nodemon server.js"
   },
   "author": "",
