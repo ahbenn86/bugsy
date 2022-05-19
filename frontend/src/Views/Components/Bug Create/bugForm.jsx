@@ -75,7 +75,7 @@ export default (props) => {
           onChange={inputChanged}
           value={bugObject.version}
         ></input>
-        <button type="submit">{props.title}</button>
+        <button className="edit-bug-btn" type="submit">{props.title}</button>
       </form>
     </div>
   );

@@ -38,9 +38,17 @@
     border: none;
 }
 
-.bug-create button {
+.edit-bug-btn {
     grid-column: 2;
     width: 200px;
-    margin-left: 180px;
+    margin-left: 140px;
     
+}
+
+.close-btn {
+    position: absolute;
+    width: 100px;
+    right: 0;
+    top: 0;
+    margin: 10px;
 }
