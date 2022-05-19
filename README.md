@@ -4,7 +4,7 @@
 
 ![App Logo](https://github.com/ahbenn86/bugsy/blob/master/frontend/public/images/bugsy-bug.png?raw=true?raw=true) 
 
-> Currently under development 
+> Currently under development: *Crud* functions and app responsiveness
 
 <br/>
 
